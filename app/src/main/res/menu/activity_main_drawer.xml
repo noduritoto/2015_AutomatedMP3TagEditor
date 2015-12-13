@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+
+</menu>

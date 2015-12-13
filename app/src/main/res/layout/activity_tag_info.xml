@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:baselineAligned="true"
+
+    android:nestedScrollingEnabled="false"
+    android:orientation="vertical"
+    android:paddingRight="5dp"
+    android:weightSum="1"
+    tools:context="com.example.noduritoto.at1.TagInfoActivity">
+
+    <ScrollView
+        android:id="@+id/tagInfoMainScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="451dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/coverForTaginfo"
+                android:layout_width="252dp"
+                android:layout_height="252dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+
+
+                android:backgroundTint="#ffffff"
+                android:src="@drawable/image_border" />
+
+            <LinearLayout
+                android:id="@+id/songInfoLayout"
+                android:layout_width="334dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:text="Song"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#f9962d" />
+
+                <EditText
+                    android:id="@+id/songEditText"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f9962d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/artistInfoLayout"
+                android:layout_width="334dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:text="Artist"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#f9962d" />
+
+                <EditText
+                    android:id="@+id/artistEditText"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f9962d" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/AlbumInfoLayout"
+                android:layout_width="334dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:text="Album"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#f9962d" />
+
+                <EditText
+                    android:id="@+id/albumEditText"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f9962d" /><![CDATA[
+
+                @+id/albumEditText" />
+            ]]>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyricsInfoLayout"
+                android:layout_width="334dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="66dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top"
+                    android:text="Lyrics"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#f9962d" />
+
+                <EditText
+                    android:id="@+id/lyricsEditText"
+                    android:layout_width="275dp"
+                    android:layout_height="150dp"
+                    android:editable="true"
+                    android:paddingRight="5dp"
+                    android:scrollbars="vertical"
+                    android:text="ㄹㅎㄹㅎ"
+                    android:textColor="#f9962d" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/editButton_1"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@null"
+        android:clickable="true"
+        android:src="@drawable/edit" />
+
+</LinearLayout>

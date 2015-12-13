@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/noduritoto/AndroidStudioProjects/Noduritoto2/echoprintLib/src/main/jniLibs"><file name="armeabi/libechoprint-jni.so" path="/home/noduritoto/AndroidStudioProjects/Noduritoto2/echoprintLib/src/main/jniLibs/armeabi/libechoprint-jni.so"/></source></dataSet><dataSet config="release"><source path="/home/noduritoto/AndroidStudioProjects/Noduritoto2/echoprintLib/src/release/jniLibs"/></dataSet></merger>
