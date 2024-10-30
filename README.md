@@ -1,5 +1,3 @@
-# 2015_AutomatedMP3Tagger
-2015-2 모바일 앱개발 마지막 프로젝트
 
 This android app is implemented by using (Echoprint4android and mp3agic) libraries.
 (https://github.com/gvsumasl/EchoprintForAndroid)
